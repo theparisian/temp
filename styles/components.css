@@ -1,0 +1,37 @@
+@layer components {
+    .btn-app-footer {
+        height:6rem;
+        font-size: 2rem;
+        z-index:100;
+    }
+    .btn-base {
+        @apply p-2 rounded-full uppercase text-center cursor-pointer font-fat text-sm
+    }
+    .btn-animation {
+        @apply p-2 rounded-full uppercase text-center cursor-pointer transition ease-in-out duration-200 transform hover:shadow-xl
+    }
+    .btn-white {
+        @apply btn-base bg-white text-black 
+    }
+    .btn-white-shadow {
+        @apply btn-base bg-white shadow-xl
+    }
+    .btn-opacity-50 {
+        @apply btn-base bg-opacity-50 shadow-xl 
+    }
+    .btn-icon {
+        @apply cursor-pointer transition ease-in-out duration-500 transform hover:scale-150 focus:outline-none
+    }
+    .btn-icon-6 {
+        @apply w-6 h-6 btn-icon
+    }
+    .btn-icon-7 {
+        @apply w-7 h-7 btn-icon
+    }
+    .error-border {
+        @apply border-2 border-danger
+    }
+    .error-message {
+        @apply text-danger
+    }
+}

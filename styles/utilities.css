@@ -1,0 +1,12 @@
+@layer utilities {
+    @supports (-webkit-touch-callout: none) {
+		.min-h-screen {
+		  /* The hack for Safari */
+		  min-height: -webkit-fill-available;
+		}
+	}
+    .bg-image {
+        background: url('../public/images/fond_1.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}

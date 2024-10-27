@@ -1,0 +1,23 @@
+.customInput input + span {
+    position: absolute;
+    left:10px;
+    line-height:2rem;
+    font-size:2rem;
+    top:calc(50% - 1rem);
+    transition:0.3s ease all 0s;
+    z-index:-1;
+}
+
+.customInput input:focus + span,  .customInput span.top{
+    top:-1.2rem;
+    line-height:1.2rem;
+    font-size:1.2rem;
+    left:0;
+}
+
+.customInput input {
+    border-bottom:1px solid var(--primary)!important;
+    color:var(--primary);
+    line-height:2rem;
+    font-size:2rem;
+}

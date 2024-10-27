@@ -1,0 +1,30 @@
+	@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+	@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+	@import "tailwindcss/base";
+	@import "./base.css";
+	@import "tailwindcss/components";
+	@import "./components.css";
+	@import "tailwindcss/utilities";
+	@import "./utilities.css";
+
+	
+	/* VIARIABLES */
+
+	:root {
+		--primary:#484B7F;
+		--secondary: #F38054;
+		--success: #2b7d77;
+		--danger: #dc3545;
+		--bg-image: url('../public/images/bg-home1.jpg');
+	}
+
+	.container-right {
+		background: url('../public/images/fond_1.jpg') no-repeat center right;
+	}
+
+
+	
+
+	
+
+	

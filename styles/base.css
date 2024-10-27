@@ -1,0 +1,41 @@
+@layer base {
+    h1 {
+      @apply text-4xl;
+    }
+    h2 {
+      @apply text-3xl;
+    }
+    h3 {
+        @apply text-2xl;
+    }
+    h4 {
+        @apply text-xl;
+    }
+    h5 {
+        @apply text-lg;
+    }
+    @font-face {
+		font-family: 'Blue Pen';
+		src: url('BluePen.woff2') format('woff2'),
+			url('BluePen.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Blue Pen';
+		src: url('BluePen.woff2') format('woff2'),
+			url('BluePen.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+    }
+    
+    body {
+		font-family: 'Lato', sans-serif;
+	}
+
+	/* INPUTS */
+	textarea:focus, input:focus{
+		outline: none !important;
+	}
+}
